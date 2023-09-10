@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeyStone Password Generator - Asolix</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Icons Link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <!-- fontawsome icons js -->
+<script src="https://kit.fontawesome.com/091044ac9d.js" crossorigin="anonymous"></script>
+
+
+  </head>
+  <body>
+    <!-- Header or Navbar -->
+    <header class="header">
+      <nav class="navbar max-width">
+        <a href="#"><img src="images/logo.png" alt="KeyStone" style="width: 170px; user-select: none;"></a>
+        <!-- <ul class="links">
+          <li><a href="#">Fiverr BusIness</a></li>
+          <li><a href="#">Explore</a></li>
+          <li class="language">
+            <span class="material-symbols-outlined">language</span>
+            <a href="#">English</a>
+          </li>
+          <li><a href="#">Become a seller</a></li>
+          <li class="btn signin"><a href="#">Sign In</a></li>
+          <li class="btn join"><a href="#">Join</a></li>
+        </ul> -->
+      </nav>
+    </header>
+    <section class="hero">
+       <div class="content max-width">
+        <h2 style="user-select: none;">Your Trusted Password Generator for Strong Online Protection</h2>
+        <div class="search-field">
+          <input type="text" id="password" placeholder="Password">
+          <span class="material-symbols-outlined search-btn" onclick="copyPassword()"><i class="fa-regular fa-copy" style="color: #ffffff;"></i></span>
+        </div>
+        <!-- <div class="popular-tags">
+          Popular:
+          <ul class="link">
+            <li><a href="#" class="active-btn" onclick="createPassword()">Generate Password</a></li>
+            <li><a href="#">WordPress</a></li>
+            <li><a href="#">Logo Design</a></li>
+            <li><a href="#">AI Design</a></li>
+          </ul>
+        </div> -->
+        <button class="generate-btn" id="gen-btn" onclick="createPassword()"><img class="btn-img" src="images/generate.png"> Generate Password</button>
+       </div>
+    </section>
+   <script src="script.js"></script>
+  </body>
+</html>
